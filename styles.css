@@ -1,0 +1,51 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffeef8; /* Light pink background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+.container {
+    text-align: center;
+    background-color: #ffccdd; /* Slightly darker pink for the container */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h1 {
+    color: #e63946; /* Darker pink for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.message {
+    font-size: 1.2em; /* Increase font size for the message */
+    margin-bottom: 20px; /* Space below the message */
+}
+
+.button-container {
+    margin-bottom: 20px; /* Space below the buttons */
+}
+
+.button {
+    display: inline-block;
+    background-color: #ff69b4; /* Hot pink for buttons */
+    color: white;
+    text-decoration: none; /* Remove underline from links */
+    border: none;
+    border-radius: 5px; /* Rounded corners for buttons */
+    padding: 10px 20px; /* Padding for buttons */
+    font-size: 1em; /* Font size for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.button:hover {
+    background-color: #ff1493; /* Darker pink on hover */
+}
